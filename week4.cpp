@@ -31,30 +31,29 @@ int main (){
 
             case 1: 
                     s();
-                    cout<<"Q"<<endl<<endl;
+                    cout<<"What is SVM/goal?"<<endl<<endl;
                     getAnswer();
                     s();
                     cout<<"Answer:" 
-                        <<"\n "
+                        <<"\n The goal of SVM is to try to find a hyperplane with the W parameter sunch that the margin of the hyperplane is maximized"
                         <<"\n ";
                     break;  
             case 2: 
                     s();
-                    cout<<"Q"<<endl<<endl;
+                    cout<<"What is hard SVM?"<<endl<<endl;
                     getAnswer();
                     s();
                     cout<<"Answer:" 
-                        <<"\n "
-                        <<"\n ";
+                        <<"\n Hard SVM requires that all data points are perfectly separated by the hyperplane";
                     break;  
             case 3: 
                     s();
-                    cout<<"Q"<<endl<<endl;
+                    cout<<"How does soft SVM differ from hard SVM"<<endl<<endl;
                     getAnswer();
                     s();
                     cout<<"Answer:" 
-                        <<"\n "
-                        <<"\n ";
+                        <<"\n Soft SVM allows some data points to be on the wrong side of the hyperplane or inside the margin"
+                        <<"\n It balances maximizing the margin and minimizing misclassifications, ";
                     break;  
             case 4: 
                     s();
