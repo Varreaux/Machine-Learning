@@ -57,48 +57,49 @@ int main (){
                     break;  
             case 4: 
                     s();
-                    cout<<"Q"<<endl<<endl;
+                    cout<<"What is a slack variable ξ?"<<endl<<endl;
                     getAnswer();
                     s();
                     cout<<"Answer:" 
-                        <<"\n "
-                        <<"\n ";
+                        <<"\n is a value that measures how much a data point violates the margin or is misclassified";
                     break;  
             case 5: 
                      s();
-                    cout<<"Q"<<endl<<endl;
+                    cout<<"What is the distance between the two outter hyperplane (the width of the entire margin)"<<endl<<endl;
                     getAnswer();
                     s();
                     cout<<"Answer:" 
-                        <<"\n "
-                        <<"\n ";
+                        <<"\n 2 / ||w|| with the latter being the length of the weight vector"
+                        <<"\n ||w|| = sq_root(w1^2+w2^2+...+wn^2)";
                     break;  
             case 6: 
                     s();
-                    cout<<"Q"<<endl<<endl;
+                    cout<<"So basically what are you trying to do?"<<endl<<endl;
                     getAnswer();
                     s();
                     cout<<"Answer:" 
-                        <<"\n "
+                        <<"\n You want to maximize the the ||w|| while simutaeously trying to lower the ξ"
                         <<"\n ";
                     break;  
             case 7: 
                     s();
-                    cout<<"Q"<<endl<<endl;
+                    cout<<"How does each model seperate the data?"<<endl<<endl;
                     getAnswer();
                     s();
                     cout<<"Answer:" 
-                        <<"\n "
-                        <<"\n ";
+                        <<"\n Adalaine - Minimizes the cost function"
+                        <<"\n Logistic Regression - Maximizes the log-likelihood function"
+                        <<"\n Source Vector Machine - Maximizes the margin and minimizes the slack variables";
                     break;  
             case 8: 
                     s();
-                    cout<<"Q"<<endl<<endl;
+                    cout<<"What is the hinge loss function?"<<endl<<endl;
                     getAnswer();
                     s();
                     cout<<"Answer:" 
-                        <<"\n "
-                        <<"\n ";
+                        <<"\n it's basically calculating ξ"
+                        <<"\n ξ = max(0, 1 - yi(w0+wi*xi))"
+                        <<"\n if ξ is above 0 then margin violation by that amount";
                     break;  
             case 9: 
                     s();

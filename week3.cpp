@@ -290,39 +290,40 @@ int main (){
                     break;
             case 27: 
                     s();
-                    cout<<"Q"<<endl<<endl;
+                    cout<<"explain One-vs.-Rest (OvR)"<<endl<<endl;
                     getAnswer();
                     s();
                     cout<<"Answer:" 
-                        <<"\n "
-                        <<"\n ";
+                        <<"\n It's a way for a binary classifier to work with multiclass classification "
+                        <<"\n If you have four classes you run the model four times and with each class against the rest"
+                        <<"\n You then basically get 4 functions, so when you get a new datapoint, the function (class) that returns the highest probability is the class that you choose";
                     break;
             case 28: 
                     s();
-                    cout<<"Q"<<endl<<endl;
+                    cout<<"explain One-vs.-One"<<endl<<endl;
                     getAnswer();
                     s();
                     cout<<"Answer:" 
-                        <<"\n "
-                        <<"\n ";
+                        <<"\n Also a way for a binary classifier to work with multiclass classification"
+                        <<"\n If you have four class you compare each one to all the other individually, you end up with 6 functions in this case"
+                        <<"\n When you run a new data point against the 6 functions, the class that is returned the most often is the one you should choose";
                     break;   
             case 29: 
                     s();
-                    cout<<"Q"<<endl<<endl;
+                    cout<<"What do margin size around a boundery (hyperplane) say about a model?"<<endl<<endl;
                     getAnswer();
                     s();
                     cout<<"Answer:" 
-                        <<"\n "
-                        <<"\n ";
+                        <<"\n Larger margins mean that the model generalizes better (aka performs well on new data)"
+                        <<"\n Smaller margins means the model is more prone to overfitting";
                     break;
             case 30: 
                     s();
-                    cout<<"Q"<<endl<<endl;
+                    cout<<"What is a support vector?"<<endl<<endl;
                     getAnswer();
                     s();
                     cout<<"Answer:" 
-                        <<"\n "
-                        <<"\n ";
+                        <<"\n Support vectors are the closest data points to the decision boundary (hyperplane) in an SVM";
                     break;
             case 31: 
                     s();
